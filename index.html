@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://i.postimg.cc/KYdbfhf0/shield.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Fiverr Safe Message Tool with Restricted Words</title>
+</head>
+
+<body>
+    <!-- <div class="logo-container">
+        <img class="logo" src="https://i.postimg.cc/W3T83736/Dev-Nayem-fiverr-logo.png" alt="">
+    </div> -->
+
+    <h2>🛡 Fiverr Safe Message Tool</h2>
+
+    <h4>🔔 দ্রষ্টব্য: দয়া করে অনাকাঙ্ক্ষিত কোনো পরিস্থিতি এড়াতে চূড়ান্ত মেসেজটি পাঠানোর আগে নিজে একবার যাচাই করে নিন। টুলটি যথাসম্ভব নির্ভুলভাবে কাজ করলেও ১০০% নিখুঁত হওয়ার গ্যারান্টি নেই।</h4>
+
+    <!-- <br> -->
+
+    <h3>✍️ Your Message:</h3>
+    <textarea id="inputText" placeholder="Write your Fiverr message..."></textarea>
+    <div class="counter" id="inputCount">Words: 0</div>
+
+    <button onclick="processMessage()">🔍 Make It Safe</button>
+    <label>
+        <input type="checkbox" id="highlightToggle" checked>
+        🔦 Highlight Restricted Words
+    </label>
+
+    <h3>✅ Safe Message:</h3>
+    <div class="output" id="outputText"></div>
+    <div class="counter" id="outputCount">Words: 0</div>
+
+    <button onclick="copyOutput()">📋 Copy Safe Message</button>
+    <button onclick="pasteToInput()">📥 Paste to Input</button>
+
+    <div id="restrictedWords" class="restricted-words" style="display:none;"></div>
+
+    <footer>
+        <small>© Copyright 2026 | All Right Reserved Abdullah Al Nayem</small>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>

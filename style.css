@@ -1,0 +1,89 @@
+body {
+    font-family: "Onest", sans-serif;
+    max-width: 750px;
+    margin: 0px auto;
+    padding: 20px;
+    background: #f4f6f8;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+h2,
+h3 {
+    margin-bottom: 10px;
+}
+
+textarea {
+    font-family: "Onest", sans-serif;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    font-size: 1em;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    border: Solid #9e9e9e 1px;
+}
+
+button {
+    font-family: "Onest", sans-serif;
+    padding: 8px 15px;
+    font-size: 0.95em;
+    margin: 5px 5px 15px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: Solid #9e9e9e 1px;
+}
+
+.output {
+    font-family: "Onest", sans-serif;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+    min-height: 80px;
+    border-radius: 5px;
+    border: Solid #9e9e9e 1px;
+}
+
+.counter {
+    padding-top: 10px;
+    font-family: "Onest", sans-serif;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.restricted-words {
+    font-family: "Onest", sans-serif;
+    margin-top: 15px;
+    padding: 10px;
+    background: #fff3f3;
+    border: 1px solid #f5c2c2;
+    color: #a33;
+    font-weight: bold;
+}
+
+.highlight {
+    font-family: "Onest", sans-serif;
+    background-color: #ffcccc;
+    color: #a00;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+footer {
+    font-family: "Onest", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
